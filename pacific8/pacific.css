@@ -1,7 +1,7 @@
 /*
-    Pacific Trails Resort (HW19)
+    Pacific Trails Resort (HW27)
     Author: Jana El-Khatib
-    Date Last Modified: 6/28/2024
+    Date Last Modified: 7/1/2024
 */
 
 body {
@@ -146,6 +146,29 @@ nav,
 main,
 footer {
     display: block;
+}
+
+table {
+    border: 1px solid #3399CC;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 5px;
+    border: 1px solid #3399CC;
+}
+
+td {
+    text-align: center;
+}
+
+.text {
+    text-align: left;
+}
+
+tr:nth-of-type(even) {
+    background-color: #F5FAFC;
 }
 
 /*Tablet CSS*/
